@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
+    <style>
+      .paper-title {
+        margin-top: 2em;
+        margin-bottom: 2em;
+      }
+      .paper-notes {
+        background-color:#E0E0E0;
+      }
+
+
+      .figure-1 video {
+        width: 852px;
+        height:480px;
+        margin:0 auto;
+      }
+      .figure-1_vert video {
+        width:  480px;
+        height: 852px;
+        margin:0 auto;
+      }
+      .content-block {
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+      }
+      .overview-video {
+        background-color: rgb(240,240,240);
+      }
+      .overview-video .video-col {
+        margin-left: 2em;
+        margin-right: 2em;
+      }
+
+      table.center {
+        margin-left: auto; 
+        margin-right: auto;
+      }
+      td {
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="paper-title">
+        <!-- title -->
+        <div class="row">
+          <div class="col">
+            <h1 class="name text-center">StylePortraitVideo: Editing Portrait Videos with Expression Optimization</h1>
+            <h2 class="name text-center">Supplementary Material</h2>
+            <h3 class="name text-center">paper1038</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="">
+        <!-- introduction -->
+        <div class="row">
+            <div class="col">
+                <h4 class="name text-center">The webpage includes video results on of the figures in the main paper.</h4>
+                <h5 class="name text-center">Go to <a href="../index.html">the project page</a>, <a href="./main.html">Figure 1 (part 1)</a>,
+                  <a href="./index_figure_1_exp.html">Figure 1 (part 2)</a>, and
+                  <a href="./index_figure_4_12.html">Figure 4~12 (part 3)</a>.</h5>
+            </div>
+        </div>
+      </div>
+      
+
+      <!-- Figure 1 full frame -->
+
+      <div class="content-block figure-1">
+        <div class="row">
+          <div class="col">
+
+            <div class="row">
+              <div class="col">
+                <hr><p class="text-center">Figure 1. (b) Composited results with and without expression dynamics optimization.<br>Videos with optimization better follow the original input video's lip contact than those without optimization.<br>The eyes in the other hand follow the intented edited results.</a></p>
+              </div>
+            </div>
+
+            <!-- Pexel talking -->
+            <div class="row">
+              <table style="table-layout: fixed; width: 852px; margin: auto; text-align: center;" >
+                <td><a href="./figure_01/pexel-talking-001-original.mp4" target="_blank">Input Video</a></td>
+              </table>
+            </div>
+            <div class="row">
+              <video class="embed-responsive-item" autoplay="" controls="" muted="" loop="">
+                <source src="./figure_01/pexel-talking-001-original.mp4" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+              </video>
+            </div>
+
+            <div class="row">
+              <table style="table-layout: fixed; width: 852px; margin: auto; text-align: center;" >
+                <td><a href="./figure_01/pexel-talking-001-wo-exp_optim-anger-10.mp4" target="_blank">w/o Expression Dynamics Optimization (+ Anger)</a></td>
+              </table>
+            </div>
+            <div class="row">
+              <video class="embed-responsive-item" autoplay="" controls="" muted="" loop="">
+                <source src="./figure_01/pexel-talking-001-wo-exp_optim-anger-10.mp4" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+              </video>
+            </div>
+
+            <div class="row">
+              <table style="table-layout: fixed; width: 852px; margin: auto; text-align: center;" >
+                <td><a href="./figure_01/pexel-talking-001-exp_optim-anger-10.0.mp4" target="_blank">w/ Expression Dynamics Optimization (+ Anger)</a></td>
+              </table>
+            </div>
+            <div class="row">
+              <video class="embed-responsive-item" autoplay="" controls="" muted="" loop="">
+                <source src="./figure_01/pexel-talking-001-exp_optim-anger-10.0.mp4" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+              </video>
+            </div>
+
+
+
+            <!-- taylor talking -->
+            <div class="row">
+              <table style="table-layout: fixed; width: 852px; margin: auto; text-align: center;" >
+                <td><a href="./figure_01/taylor-input-fullframe-baseline.mp4" target="_blank">Input Video</a></td>
+              </table>
+            </div>
+            <div class="row">
+              <video class="embed-responsive-item" autoplay="" controls="" muted="" loop="">
+                <source src="./figure_01/taylor-input-fullframe-baseline.mp4" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+              </video>
+            </div>
+
+            <div class="row">
+              <table style="table-layout: fixed; width: 852px; margin: auto; text-align: center;" >
+                <td><a href="./figure_01/taylor-wo-exp_optim-happiness-10.0.mp4" target="_blank">w/o Expression Dynamics Optimization (+ Happiness)</a></td>
+              </table>
+            </div>
+            <div class="row">
+              <video class="embed-responsive-item" autoplay="" controls="" muted="" loop="">
+                <source src="./figure_01/taylor-wo-exp_optim-happiness-10.0.mp4" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+              </video>
+            </div>
+
+            <div class="row">
+              <table style="table-layout: fixed; width: 852px; margin: auto; text-align: center;" >
+                <td><a href="./figure_01/taylor-exp_optim-happiness-10.0.mp4" target="_blank">w/ Expression Dynamics Optimization (+ Happiness)</a></td>
+              </table>
+            </div>
+            <div class="row">
+              <video class="embed-responsive-item" autoplay="" controls="" muted="" loop="">
+                <source src="./figure_01/taylor-exp_optim-happiness-10.0.mp4" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+              </video>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+
+
+    <!-- Bootstrap bits -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+  </body>
+</html>
